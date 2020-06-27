@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413BD57C84104650143BD83 /* Pods_CCGitApiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F5A4B7FDAC3892957BD22A /* Pods_CCGitApiTests.framework */; };
 		0BA2E48624A6D82D003B01DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2E48524A6D82D003B01DE /* AppDelegate.swift */; };
 		0BA2E48824A6D82D003B01DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2E48724A6D82D003B01DE /* SceneDelegate.swift */; };
 		0BA2E48A24A6D82D003B01DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2E48924A6D82D003B01DE /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		0BA2E48F24A6D82E003B01DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2E48E24A6D82E003B01DE /* Assets.xcassets */; };
 		0BA2E49224A6D82E003B01DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2E49024A6D82E003B01DE /* LaunchScreen.storyboard */; };
 		0BA2E49D24A6D82E003B01DE /* CCGitApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA2E49C24A6D82E003B01DE /* CCGitApiTests.swift */; };
+		E4EF69A03AF31DDF4DEB14A5 /* Pods_CCGitApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F48A53B89B9C0908CE4174A /* Pods_CCGitApi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 		0BA2E49824A6D82E003B01DE /* CCGitApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCGitApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA2E49C24A6D82E003B01DE /* CCGitApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCGitApiTests.swift; sourceTree = "<group>"; };
 		0BA2E49E24A6D82E003B01DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC450748BD38E2F47054868 /* Pods-CCGitApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCGitApi.release.xcconfig"; path = "Target Support Files/Pods-CCGitApi/Pods-CCGitApi.release.xcconfig"; sourceTree = "<group>"; };
+		67D9606F0B4DF42735AC0D15 /* Pods-CCGitApiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCGitApiTests.release.xcconfig"; path = "Target Support Files/Pods-CCGitApiTests/Pods-CCGitApiTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F48A53B89B9C0908CE4174A /* Pods_CCGitApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCGitApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F5A4B7FDAC3892957BD22A /* Pods_CCGitApiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCGitApiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5681E06A6F56102FB4D8F5F /* Pods-CCGitApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCGitApi.debug.xcconfig"; path = "Target Support Files/Pods-CCGitApi/Pods-CCGitApi.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9219D8A71AD9940F996885 /* Pods-CCGitApiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCGitApiTests.debug.xcconfig"; path = "Target Support Files/Pods-CCGitApiTests/Pods-CCGitApiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EF69A03AF31DDF4DEB14A5 /* Pods_CCGitApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0413BD57C84104650143BD83 /* Pods_CCGitApiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				0BA2E48424A6D82D003B01DE /* CCGitApi */,
 				0BA2E49B24A6D82E003B01DE /* CCGitApiTests */,
 				0BA2E48324A6D82D003B01DE /* Products */,
+				89448A46005D4819CAD87D46 /* Pods */,
+				B8E2C133E89F2C3261C89879 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,27 @@
 			path = CCGitApiTests;
 			sourceTree = "<group>";
 		};
+		89448A46005D4819CAD87D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5681E06A6F56102FB4D8F5F /* Pods-CCGitApi.debug.xcconfig */,
+				2FC450748BD38E2F47054868 /* Pods-CCGitApi.release.xcconfig */,
+				EC9219D8A71AD9940F996885 /* Pods-CCGitApiTests.debug.xcconfig */,
+				67D9606F0B4DF42735AC0D15 /* Pods-CCGitApiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8E2C133E89F2C3261C89879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F48A53B89B9C0908CE4174A /* Pods_CCGitApi.framework */,
+				98F5A4B7FDAC3892957BD22A /* Pods_CCGitApiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BA2E4A124A6D82E003B01DE /* Build configuration list for PBXNativeTarget "CCGitApi" */;
 			buildPhases = (
+				6C5B45038026DC32BC0F538A /* [CP] Check Pods Manifest.lock */,
 				0BA2E47E24A6D82D003B01DE /* Sources */,
 				0BA2E47F24A6D82D003B01DE /* Frameworks */,
 				0BA2E48024A6D82D003B01DE /* Resources */,
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BA2E4A424A6D82E003B01DE /* Build configuration list for PBXNativeTarget "CCGitApiTests" */;
 			buildPhases = (
+				7CA977BA18D005027DD2A974 /* [CP] Check Pods Manifest.lock */,
 				0BA2E49424A6D82E003B01DE /* Sources */,
 				0BA2E49524A6D82E003B01DE /* Frameworks */,
 				0BA2E49624A6D82E003B01DE /* Resources */,
@@ -193,6 +228,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C5B45038026DC32BC0F538A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCGitApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA977BA18D005027DD2A974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCGitApiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0BA2E47E24A6D82D003B01DE /* Sources */ = {
@@ -359,6 +441,7 @@
 		};
 		0BA2E4A224A6D82E003B01DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5681E06A6F56102FB4D8F5F /* Pods-CCGitApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +461,7 @@
 		};
 		0BA2E4A324A6D82E003B01DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC450748BD38E2F47054868 /* Pods-CCGitApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +481,7 @@
 		};
 		0BA2E4A524A6D82E003B01DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9219D8A71AD9940F996885 /* Pods-CCGitApiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +504,7 @@
 		};
 		0BA2E4A624A6D82E003B01DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D9606F0B4DF42735AC0D15 /* Pods-CCGitApiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,0 +1,6 @@
+framework module Pods_CCGitApiTests {
+  umbrella header "Pods-CCGitApiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
